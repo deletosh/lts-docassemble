@@ -19,3 +19,7 @@ services:
     stop_grace_period: 6m
     ports:
       - "80:80"
+  mailhog:
+    image: mailhog/mailhog
+    ports:
+      - "8025:8025"

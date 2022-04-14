@@ -1,7 +1,7 @@
 ## Docassemble development setup
 A simple docassemble set up on your local development machine for trial and development processes.
 
-The app runs on [http://localhost/](http://localhost/) and the postgres database console on   [http://localhost:8080](http://localhost:8080)
+The app runs on [http://localhost/](http://localhost/) and the postgres database console on   [http://localhost:8080](http://localhost:8080) and the fake mail client at [http://localhost:8025/](http://localhost:8025/)
 
 ### Getting Started
 1. Clone this repo `git clone git@github.com:thedeletosh/lts-docassemble.git`
