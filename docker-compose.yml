@@ -12,6 +12,8 @@ services:
       - 8080:8080
   docassemble:
     image: jhpyle/docassemble
+    volumes:
+      - ./backup:/usr/share/docassemble/backup
     container_name: docassemble-dev
     env_file:
       - .env
